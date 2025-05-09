@@ -1,0 +1,27 @@
+# Hugo build output
+/public/
+/resources/
+
+# OS-spezifisch
+.DS_Store
+Thumbs.db
+
+# IDEs / Editoren
+.vscode/
+.idea/
+
+# Hugo Cache-Dateien
+hugo_stats.json
+hugo_cache/
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Env files
+.env
+.env.*
+
+# GitHub-specific
+*.log

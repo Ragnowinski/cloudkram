@@ -1,0 +1,41 @@
+baseURL = "https://www.chmill.net/"
+canonifyURLs = true
+title = "Cloudkram"
+theme = "PaperMod"
+languageCode = "de-de"
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+
+[params]
+  author = "Niclas aka Ragnowinski"
+  description = "Azure, Automation und anderer Nerd-Kram"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+[params.homeInfoParams]
+  Title = "Willkommen bei Cloudkram 👋"
+  Content = "Hier teile ich meine Erfahrungen rund um Azure, Security & Mehr."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Ragnowinski"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/niclas-chmill"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
